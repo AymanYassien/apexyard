@@ -15,6 +15,12 @@ onboarding.yaml
 # Claude Code per-machine settings (permission overrides, local tool config)
 .claude/settings.local.json
 
+# Split-portfolio v2: registry and per-project docs live in ../private.
+# These paths exist locally but must not be committed to the public fork.
+apexyard.projects.yaml
+projects/bin-yassien-blog/
+projects/hadith-reviewer/
+
 # Live working copies of managed projects. Each is its own git repo — they
 # must not be double-tracked from the ops repo.
 workspace/*/
